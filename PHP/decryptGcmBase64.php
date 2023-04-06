@@ -30,5 +30,4 @@ $key = "ThisIsASecretKey";
 $decrypted = decryptGcmBase64($encrypted, $key);
 echo $decrypted;
 
-
 ?>
