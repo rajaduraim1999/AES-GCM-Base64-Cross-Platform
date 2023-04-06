@@ -69,5 +69,4 @@ fun main(args: Array<String>) {
 
     val decrypted = decryptGcmBase64(encrypted, key)
     println(decrypted)
-    
 }
