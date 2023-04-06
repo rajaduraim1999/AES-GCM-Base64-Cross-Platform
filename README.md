@@ -7,8 +7,22 @@ This project contains the implementation of (Kotlin, Java, NodeJS, Javascript, P
 1. Kotlin
 2. Java
 3. NodeJS
-3. JavaScript
-4. PHP
+4. JavaScript
+5. PHP
+6. Swift
+7. Python
+8. C#
+
+### Languages and Tools  
+
+[![Kotlin Badge](https://img.shields.io/badge/Kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Java Badge](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+[![JavaScript Badge](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com/)
+[![Node.js Badge](https://img.shields.io/badge/Node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white)](https://nodejs.org/)
+[![PHP Badge](https://img.shields.io/badge/PHP-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
+[![Swift Badge](https://img.shields.io/badge/Swift-%23FA7343.svg?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org/)
+[![Python Badge](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![C# Badge](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
 # Why AES?
 
