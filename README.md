@@ -35,3 +35,24 @@ This project contains the implementation of (Kotlin, Java, NodeJS, Javascript, P
 * **Flexibility** : AES is a versatile encryption algorithm that can be used in various modes of operation, depending on the specific requirements of the application. For example, it can be used in Electronic Codebook (ECB) mode for simple encryption, or in Cipher Block Chaining (CBC) mode for more secure encryption.
 
 * **Standardization** : AES is a widely accepted encryption standard that has been adopted by many organizations and industries. This means that it is supported by many software and hardware platforms, and can be used in a variety of applications with confidence in its security and interoperability.
+
+# How to Use
+To encrypt a message using this tool, simply enter the plaintext message, a secret encryption key, and an initialization vector (IV) into the input fields. Then click the "Encrypt" button to generate the encrypted ciphertext.
+
+To decrypt a message using this tool, enter the encrypted ciphertext, the secret encryption key, and the initialization vector (IV) into the input fields. Then click the "Decrypt" button to generate the plaintext message.
+
+Note: Make sure to keep the secret encryption key and initialization vector (IV) confidential and secure, as they are required to decrypt the encrypted message.
+
+# Compatibility
+This tool is designed to work on all major operating systems, including Windows, macOS, and Linux.
+
+# Security
+This tool uses the AES-GCM encryption algorithm, which is considered to be a secure and robust encryption algorithm. However, it is important to note that no encryption algorithm is completely foolproof, and it is always possible for a determined attacker to decrypt the data given enough time and resources.
+
+Therefore, it is important to use strong and complex encryption keys, and to keep the encryption keys and initialization vectors (IVs) confidential and secure. It is also recommended to use additional security measures, such as two-factor authentication, to further enhance the security of the encrypted data.
+
+# License
+This tool is released under the MIT License, which allows for free and open-source use, modification, and distribution of the software. See the LICENSE file for more information.
+
+# Acknowledgements
+This tool is based on the AES-GCM encryption algorithm, which is developed by the National Institute of Standards and Technology (NIST). The Base64 encoding scheme is a widely-used data encoding scheme that is defined in the RFC 4648 specification.
