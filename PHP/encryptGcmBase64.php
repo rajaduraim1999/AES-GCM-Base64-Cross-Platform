@@ -27,5 +27,4 @@ $key = "ThisIsASecretKey";
 $encrypted = encryptGcmBase64($plainText, $key);
 echo $encrypted;
 
-
 ?>
