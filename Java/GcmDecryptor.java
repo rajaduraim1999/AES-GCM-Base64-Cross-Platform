@@ -41,7 +41,6 @@ public class GcmDecryptor {
       String key = "ThisIsASecretKey";
       String decrypted = GcmDecryptor.decryptGcmBase64(encrypted, key);
       System.out.println(decrypted);
-  
     }
     
 }
