@@ -35,8 +35,8 @@ public class GcmDecryptor {
     }
     
     public static void main(String[] args) throws Exception {
-        System.out.println("AES GCM in Java");
-        // ### security warning: never use hardcoded keys in source ###
+      System.out.println("AES GCM in Java");
+      // ### security warning: never use hardcoded keys in source ###
       String encrypted = "DMZ7bCngtw96WBs8YuoVUQ6oYM1AIfUb7uJ/iaIelPW8PLnF1KqcwAMLNfQ7pND+u7Oujoc6WWm/eBOn";
       String key = "ThisIsASecretKey";
       String decrypted = GcmDecryptor.decryptGcmBase64(encrypted, key);
