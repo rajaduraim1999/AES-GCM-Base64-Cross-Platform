@@ -1,6 +1,6 @@
 # AES-GCM-Base64-Cross-Platform Encryption / Decryption
 
-This project contains the implementation of (Kotlin, Java, NodeJS, Javascript, PHP)
+This project contains the implementation of (Kotlin, Java, NodeJS, Javascript, PHP, Swift, Python, C#)
 
 ## Platforms supported 
 
