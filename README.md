@@ -1,28 +1,38 @@
 # AES-GCM-Base64-Cross-Platform Encryption / Decryption
 
-This project contains the implementation of (Kotlin, Java, NodeJS, Javascript, PHP, Swift, Python, C#)
+This project contains the implementation of (.NET(C#), Java, JavaScript, Kotlin, PHP, Python, TypeScript, Swift, NodeJS(JavaScript))
 
 ## Platforms supported 
 
-1. Kotlin
+1. .NET(C#)
 2. Java
-3. NodeJS
-4. JavaScript
+3. JavaScript
+4. Kotlin
 5. PHP
-6. Swift
-7. Python
-8. C#
+6. Python
+7. TypeScript
+8. Swift
+9. NodeJS(JavaScript)
 
 ### Languages and Tools  
 
-[![Kotlin Badge](https://img.shields.io/badge/Kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![.NET Badge](https://img.shields.io/badge/.NET-512BD4.svg?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
+
+[![C# Badge](https://img.shields.io/badge/C%20Sharp-239120.svg?style=for-the-badge&logo=C-Sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+
 [![Java Badge](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-[![JavaScript Badge](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com/)
-[![Node.js Badge](https://img.shields.io/badge/Node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white)](https://nodejs.org/)
-[![PHP Badge](https://img.shields.io/badge/PHP-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
-[![Swift Badge](https://img.shields.io/badge/Swift-%23FA7343.svg?style=for-the-badge&logo=swift&logoColor=white)](https://swift.org/)
-[![Python Badge](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![C# Badge](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+
+[![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)](https://www.javascript.com/)
+
+[![Kotlin Badge](https://img.shields.io/badge/Kotlin-7F52FF.svg?style=for-the-badge&logo=Kotlin&logoColor=white)](https://kotlinlang.org/)
+
+[![PHP Badge](https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=PHP&logoColor=white)](https://www.php.net/)
+
+[![Python Badge](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)](https://www.python.org/)
+
+[![Swift Badge](https://img.shields.io/badge/Swift-F05138.svg?style=for-the-badge&logo=Swift&logoColor=white)](https://swift.org/)
+
+[![NodeJS Badge](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 
 # Why AES?
 
