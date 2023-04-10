@@ -22,6 +22,6 @@ def aesGcmDecryption(encrypted, key):
 
 # ONLY FOR DEMO PURPOSE NEVER HARDCODE IN PRODUCTION
 encryptedText = "YOUR ENCRYPTED TEXT HERE"
-key = b"YOUR SECRET KEY HERE"
+key = "YOUR SECRET KEY HERE"
 decryptedText = aesGcmDecryption(encryptedText, key)
 print("Decrypted Text: " + decryptedText.decode("utf8"))  # 👈 YOUR DECRYPTED VALUE HERE
