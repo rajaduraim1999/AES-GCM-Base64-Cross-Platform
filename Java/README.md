@@ -18,7 +18,7 @@
 ### Output:
 
 ```
-AES GCM in Java
+AES GCM Base64 in Java
 Encrypted Text: Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
 ```
 
@@ -40,6 +40,6 @@ Encrypted Text: Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
 ### Output:
 
 ```
-AES GCM in Java
+AES GCM Base64 in Java
 Decrypted Text: Welcome to Java!
 ```
