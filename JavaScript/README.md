@@ -5,8 +5,8 @@
 ### Input:
 
 ```Java
-    console.log("AES GCM Base64 in JavaScript");
-   /**
+console.log("AES GCM Base64 in JavaScript");
+/**
  * ONLY FOR DEMO PURPOSE NEVER HARDCODE IN PRODUCTION
  */
 const plainText = "Welcome to JavaScript!";
