@@ -18,8 +18,8 @@
 ### Output:
 
 ```
-AES GCM Base64 in Kotlin
-Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
+    AES GCM Base64 in Kotlin
+    tZ7ueq+LUztONkAspyDD88DGRpPqY1CGh33MWpbaokvvOpRpE/Q7x4xOC2V7Ag==
 ```
 
 ## Sample Decryption:
@@ -32,7 +32,7 @@ Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
     * ONLY FOR DEMO PURPOSE NEVER HARDCODE IN PRODUCTION
     */
     val key = "ThisIsASecretKey"
-    val encrypted = "Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M="
+    val encrypted = "tZ7ueq+LUztONkAspyDD88DGRpPqY1CGh33MWpbaokvvOpRpE/Q7x4xOC2V7Ag=="
 
     val decrypted = decryptGcmBase64(encrypted, key)
     println(decrypted)
@@ -41,6 +41,6 @@ Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
 ### Output:
 
 ```
-AES GCM Base64 in Kotlin
-Welcome to Kotlin!
+    AES GCM Base64 in Kotlin
+    Welcome to Kotlin!
 ```
