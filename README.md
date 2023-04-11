@@ -41,9 +41,23 @@ This project contains the implementation of (.NET(C#), Java, JavaScript, Kotlin,
 # How to Use
 ## How to encrypt:
 To encrypt a message using this tool, simply enter the plaintext message, a secret encryption key, and an initialization vector (IV) into the input fields. Then click the "Encrypt" button to generate the encrypted ciphertext.
+### Encryption flow:
+
+```mermaid
+graph TD;
+    Plain_Text,Secret_Key-->AES-GCM-Base64-Encryption;
+    AES-GCM-Base64-Encryption-->Encrypted_Text;
+```
 
 ## How to decrypt:
 To decrypt a message using this tool, enter the encrypted ciphertext, the secret encryption key, and the initialization vector (IV) into the input fields. Then click the "Decrypt" button to generate the plaintext message.
+### Decryption flow:
+
+```mermaid
+graph TD;
+    Encrypted_Text,Secret_Key-->AES-GCM-Base64-Decryption;
+    AES-GCM-Base64-Decryption-->Decrypted_Text;
+```
 
 **Note:** Make sure to keep the secret encryption key and initialization vector (IV) confidential and secure, as they are required to decrypt the encrypted message.
 
