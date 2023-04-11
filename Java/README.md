@@ -10,7 +10,7 @@
     * ONLY FOR DEMO PURPOSE NEVER HARDCODE IN PRODUCTION
     */
     String plainText = "Welcome to Java!";
-    String key = "ThisIsASecretKey";
+    String key = "ThisIsASecretKey"; // 👈 THIS KEY IS SAMPLE KEY
     String encryptedText = AesGcmEncryption.encryptGcmBase64(plainText, key);
     System.out.println("Encrypted Text: " + encryptedText); // 👈 YOUR ENCRYPTED VALUE HERE
 ```
@@ -18,8 +18,8 @@
 ### Output:
 
 ```
-AES GCM Base64 in Java
-Encrypted Text: Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
+    AES GCM Base64 in Java
+    Encrypted Text: mLnCRyLmQ1oxjfMoHdFYd8UVgD8o9VacdbVMkz4FdU6mRFkjRJR9ku78pNA=
 ```
 
 ## Sample Decryption:
@@ -31,8 +31,8 @@ Encrypted Text: Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
     /**
      * ONLY FOR DEMO PURPOSE NEVER HARDCODE IN PRODUCTION
      */
-    String encryptedText = "Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=";
-    String key = "ThisIsASecretKey";
+    String encryptedText = "mLnCRyLmQ1oxjfMoHdFYd8UVgD8o9VacdbVMkz4FdU6mRFkjRJR9ku78pNA=";
+    String key = "ThisIsASecretKey"; // 👈 THIS KEY IS SAMPLE KEY
     String decryptedText = AesGcmDecryption.decryptGcmBase64(encryptedText, key);
     System.out.println("Decrypted Text: " + decryptedText); // 👈 YOUR DECRYPTED VALUE HERE
 ```
@@ -40,6 +40,6 @@ Encrypted Text: Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
 ### Output:
 
 ```
-AES GCM Base64 in Java
-Decrypted Text: Welcome to Java!
+    AES GCM Base64 in Java
+    Decrypted Text: Welcome to Java!
 ```
