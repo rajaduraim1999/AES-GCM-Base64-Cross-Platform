@@ -10,7 +10,7 @@
      * ONLY FOR DEMO PURPOSE NEVER HARDCODE IN PRODUCTION
      */
     string plainText = "Welcome to .NET C#!";
-    string key = "ThisIsASecretKey";
+    string key = "ThisIsASecretKey"; // 👈 THIS KEY IS SAMPLE KEY
     string base64Encoded = Convert.ToBase64String(ivAndCipherTextAndTag);
     Console.WriteLine("Encrypted Text: " + base64Encoded); // 👈 YOUR ENCRYPTED VALUE HERE
 ```
@@ -18,8 +18,8 @@
 ### Output:
 
 ```
-AES GCM Base64 in .NET C#
-Encrypted Text: Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
+    AES GCM Base64 in .NET C#
+    Encrypted Text: wtt/chB9+A1TMohI6QNvnz6jXPx/lPR3Qe3Z3O3b5Tjp336rsTdAnLkNIJUBHg==
 ```
 
 ## Sample Decryption:
@@ -31,8 +31,8 @@ Encrypted Text: Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
      /**
      * ONLY FOR DEMO PURPOSE NEVER HARDCODE IN PRODUCTION
      */
-    string encryptedTextBase64 = "Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=";
-    string key = "ThisIsASecretKey";
+    string encryptedTextBase64 = "wtt/chB9+A1TMohI6QNvnz6jXPx/lPR3Qe3Z3O3b5Tjp336rsTdAnLkNIJUBHg==";
+    string key = "ThisIsASecretKey"; // 👈 THIS KEY IS SAMPLE KEY
     string decryptedText = Encoding.UTF8.GetString(plaintext);
     Console.WriteLine("Decrypted Text: " + decryptedText); // 👈 YOUR DECRYPTED VALUE HERE
 ```
@@ -40,6 +40,6 @@ Encrypted Text: Tz4RQap2udCIKZV9F5ke9ziuQzRFiU89LscKAl8+aNCJudM2LtVjZdggj0M=
 ### Output:
 
 ```
-AES GCM Base64 in .NET C#
-Decrypted Text: Welcome to .NET C#!
+    AES GCM Base64 in .NET C#
+    Decrypted Text: Welcome to .NET C#!
 ```
