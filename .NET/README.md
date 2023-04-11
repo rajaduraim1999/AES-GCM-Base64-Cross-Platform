@@ -19,7 +19,7 @@
 
 ```
     AES GCM Base64 in .NET C#
-    Encrypted Text: wtt/chB9+A1TMohI6QNvnz6jXPx/lPR3Qe3Z3O3b5Tjp336rsTdAnLkNIJUBHg==
+    Encrypted Text: 8K36ZkshZ7Z87WVcujgsf2P4PGr2HrpMQhZYkxxPN+EChI853LIJcX+9uDp2YSU=
 ```
 
 ## Sample Decryption:
@@ -31,7 +31,7 @@
      /**
      * ONLY FOR DEMO PURPOSE NEVER HARDCODE IN PRODUCTION
      */
-    string encryptedTextBase64 = "wtt/chB9+A1TMohI6QNvnz6jXPx/lPR3Qe3Z3O3b5Tjp336rsTdAnLkNIJUBHg==";
+    string encryptedTextBase64 = "8K36ZkshZ7Z87WVcujgsf2P4PGr2HrpMQhZYkxxPN+EChI853LIJcX+9uDp2YSU=";
     string key = "ThisIsASecretKey"; // 👈 THIS KEY IS SAMPLE KEY
     string decryptedText = Encoding.UTF8.GetString(plaintext);
     Console.WriteLine("Decrypted Text: " + decryptedText); // 👈 YOUR DECRYPTED VALUE HERE
