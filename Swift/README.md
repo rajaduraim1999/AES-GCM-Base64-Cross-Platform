@@ -33,7 +33,7 @@
      * ONLY FOR DEMO PURPOSE NEVER HARDCODE IN PRODUCTION 
      */ 
     let aesGcmDecryption = AesGcmDecryption() 
-    let encryptedText = "YOUR ENCRYPTED TEXT HERE" 
+    let encryptedText = "yYIX0Mi8NqVJ9CNczDcn0+04qMCMsckfZgBAzjTwdko/U8jdI14gJLGjtPkb" 
     let key = "ThisIsASecretKey" // 👈 THIS KEY IS SAMPLE KEY
     if let decryptedText = aesGcmDecryption.decryptGcmBase64(cipherTextBase64: encrypted, key: key) { 
     print("Decrypted Text: " + decryptedText) // 👈 YOUR DECRYPTED VALUE HERE
