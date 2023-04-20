@@ -11,15 +11,16 @@
     */
     val plainText = "Welcome to Kotlin!"
     val key = "ThisIsASecretKey" // 👈 THIS KEY IS SAMPLE KEY
-    val encrypted = encryptGcmBase64(plainText, key)
-    println(encrypted)
+    val aesGcmEncryption = AesGcmEncryption()
+    val encryptedText = aesGcmEncryption.encryptGcmBase64(plainText, key)
+    println("Encrypted Text: $encryptedText")
 ```
 
 ### Output:
 
 ```
     AES GCM Base64 in Kotlin
-    tZ7ueq+LUztONkAspyDD88DGRpPqY1CGh33MWpbaokvvOpRpE/Q7x4xOC2V7Ag==
+    Encrypted Text: tZ7ueq+LUztONkAspyDD88DGRpPqY1CGh33MWpbaokvvOpRpE/Q7x4xOC2V7Ag==
 ```
 
 ## Sample Decryption:
@@ -32,15 +33,15 @@
     * ONLY FOR DEMO PURPOSE NEVER HARDCODE IN PRODUCTION
     */
     val key = "ThisIsASecretKey" // 👈 THIS KEY IS SAMPLE KEY
-    val encrypted = "tZ7ueq+LUztONkAspyDD88DGRpPqY1CGh33MWpbaokvvOpRpE/Q7x4xOC2V7Ag=="
-
-    val decrypted = decryptGcmBase64(encrypted, key)
-    println(decrypted)
+    val encryptedText = "tZ7ueq+LUztONkAspyDD88DGRpPqY1CGh33MWpbaokvvOpRpE/Q7x4xOC2V7Ag=="
+    val aesGcmEncryption = AesGcmDecryption()
+    val decryptedText = aesGcmEncryption.decryptGcmBase64(encryptedText, key)
+    println("Decrypted Text: $decryptedText")
 ```
 
 ### Output:
 
 ```
     AES GCM Base64 in Kotlin
-    Welcome to Kotlin!
+    Decrypted Text: Welcome to Kotlin!
 ```
